@@ -1,0 +1,31 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .logo-apple { fill: black; }
+      .logo-leaf { fill: black; }
+      .logo-text { fill: white; font-size: 48px; font-weight: bold; font-family: Arial, sans-serif; }
+      .logo-wrench { fill: white; }
+    </style>
+  </defs>
+
+  <!-- Apple body -->
+  <path class="logo-apple" d="M 200 250 Q 150 300 150 400 Q 150 520 250 580 Q 300 610 400 610 Q 500 610 550 580 Q 650 520 650 400 Q 650 300 600 250 Q 550 200 400 200 Q 250 200 200 250 Z"/>
+
+  <!-- Leaf -->
+  <ellipse class="logo-leaf" cx="520" ry="60" rx="40" transform="rotate(-45 520 140)"/>
+
+  <!-- Left wrench -->
+  <g class="logo-wrench">
+    <rect x="80" y="380" width="100" height="40" rx="20"/>
+    <circle cx="80" cy="400" r="15"/>
+  </g>
+
+  <!-- Right wrench -->
+  <g class="logo-wrench">
+    <rect x="620" y="380" width="100" height="40" rx="20"/>
+    <circle cx="720" cy="400" r="15"/>
+  </g>
+
+  <!-- Text -->
+  <text x="400" y="415" text-anchor="middle" class="logo-text">KEN APPLE REPAIR</text>
+</svg>
